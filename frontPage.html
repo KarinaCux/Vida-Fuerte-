@@ -7,46 +7,37 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <img src="logo.png" alt="Vida Fuerte Logo" width="130" height="100">
-        <label id="language">Language: </label>
-        <select>
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-            <option value="de">Deutsch</option>
-            <option value="zh">中文</option>
-            <option value="ar">العربية</option>
-            <option value="hi">हिन्दी</option>
-            <option value="ru">Русский</option>
-        </select>
+        <nav class="nav-bar">
+            <img src="logo.png" alt="Vida Fuerte Logo" width="130" height="100" class="logo-img">
+            
+            <ul class="nav-links">
+                <li><a href="frontPage.html">Home</a></li>
+                <li><a href="aboutUs.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
+            <label id="language">Language:
+                <select>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <option value="zh">中文</option>
+                    <option value="ar">العربية</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="ru">Русский</option>
+                </select>
+            </label>
+        </nav>
         <hr>
-        <table align="center" width="100%" cellpadding="15">
-            <tr align="center">
-                <th width=120px>
-                    <a href="frontPage.html">Home</a>
-                </th>
-                <th>
-                    <a href="aboutUs.html">About Us</a>
-                </th>
-                <th>
-                    <a href="services.html">Services</a>
-                </th>
-                <th>
-                    <a href="resources.html">Resources</a>
-                </th>
-                <th>
-                    <a href="contact.html">Contact</a>
-                </th>
-            </tr>
-        </table>
-        <hr>
-        <div id="box1">
-            <h1>Guide To Understanding Your Health</h1>
-            <br><br>
-            <h3>Your journey to a healthier life starts here.</h3>
-        </div>
-        <form action="index.html" method="POST">
+       <!--
+        <h1>Guide To Understanding Your Health</h1>
+        <h4>Your journey to a healthier life starts here.</h4> -->
+        <br><br>
+
+        <form action="index.html" method="POST" class="search-form">
             <label for="providers">Find: </label>
             <input type="text" id="providers" placeholder="Clinics, Docotors, Hospitals..." required>
 
