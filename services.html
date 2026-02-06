@@ -4,7 +4,7 @@
         <title>About Vida Fuerte!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
     </head>
     <body>
         <nav class="nav-bar">
@@ -17,21 +17,12 @@
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
-            <label id="language">Language:
-                <select>
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
-                    <option value="fr">Français</option>
-                    <option value="de">Deutsch</option>
-                    <option value="zh">中文</option>
-                    <option value="ar">العربية</option>
-                    <option value="hi">हिन्दी</option>
-                    <option value="ru">Русский</option>
-                </select>
-            </label>
         </nav>
         <hr>
+        <br>
+        <br><br>
+
+        <div class="services">
         <h1>Our Services</h1>
         <p>
             At Vida Fuerte!, we offer a wide range of services to support your health and well-being, including:
@@ -46,6 +37,21 @@
             </ul>
             Our team of dedicated professionals is here to help you every step of the way on your journey to better health.
         </p>
+        </div>
+        
+
+        <div class="language">
+                <div id="google_translate_element"></div>
+                <script class="language-tab">
+                        function googleTranslateElementInit(){
+                            new google.translate.TranslateElement(
+                                {pageLanguage: "en"},
+                                "google_translate_element"
+                            )
+                        }
+                </script>
+                <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </div>
     </body>
 
 </html>

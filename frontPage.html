@@ -17,21 +17,9 @@
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
-            <label id="language">Language:
-                <select>
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
-                    <option value="fr">Français</option>
-                    <option value="de">Deutsch</option>
-                    <option value="zh">中文</option>
-                    <option value="ar">العربية</option>
-                    <option value="hi">हिन्दी</option>
-                    <option value="ru">Русский</option>
-                </select>
-            </label>
         </nav>
         <hr>
+        
        <!--
         <h1>Guide To Understanding Your Health</h1>
         <h4>Your journey to a healthier life starts here.</h4> -->
@@ -46,5 +34,18 @@
 
             <input type="submit" value="Search">
         </form>
+
+        <div class="language">
+                <div id="google_translate_element"></div>
+                <script class="language-tab">
+                        function googleTranslateElementInit(){
+                            new google.translate.TranslateElement(
+                                {pageLanguage: "en"},
+                                "google_translate_element"
+                            )
+                        }
+                </script>
+                <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </div>
     </body>
 </html>
