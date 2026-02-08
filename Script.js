@@ -11,15 +11,16 @@ const PORT = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// serve your html/css/js/images from frontend/
-app.use(express.static(path.join(__dirname, "frontend")));
 
-// home redirects to your front page
+app.use(express.static(path.join(__dirname, "frontend")));
+app.use("/icons", express.static(path.join(__dirname, "icons")));
+
+
+// home redirects to  front page
 app.get("/", (req, res) => {
   res.redirect("/frontPage.html");
 });
 
-// THIS is the real API route your front-end will call
 
 app.get("/api/search", async (req, res) => {
 console.log("🔥 /api/search route HIT");

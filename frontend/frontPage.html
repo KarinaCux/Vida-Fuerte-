@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body class="home">
         <nav class="nav-bar">
             <img src="logo.png" alt="Vida Fuerte Logo" width="130" height="100" class="logo-img">
             
@@ -14,18 +14,32 @@
                 <li><a href="frontPage.html">Home</a></li>
                 <li><a href="aboutUs.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="advocate.html">Advocate</a></li>
                 <li><a href="resources.html">Resources</a></li>
+                <li><a href="advocate.html">Advocate</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <hr>
-        
+         <hr />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
        <!--
         <h1>Guide To Understanding Your Health</h1>
         <h4>Your journey to a healthier life starts here.</h4> -->
         <br><br>
 <!-- <input type="text" -->
+        <section class="hero-wrap">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <h1 class="hero-title">Vida Fuerte</h1>
+                <p class="hero-subtitle">
+               <strong>Accessible health resources.</strong> Clear information. Real support.
+                </p>
+                <div class="scroll-cue">↓ Scroll to find care near you</div>
+            </div>
+            </section>
+
+<section class="search-float">
         <form id="searchForm" class="search-form">
             <div class="search-row">
             <label for="providers">Find: </label>
@@ -37,6 +51,7 @@
         <p id="status" class="status" aria-live="polite"></p>
   <div id="results" class="results" role="list"></div>
 </form>
+</section>
 
         <div class="language">
                 <div id="google_translate_element"></div>

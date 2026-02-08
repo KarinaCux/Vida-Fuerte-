@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 *{
     margin:0;
     padding: 0;
 }
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     color: #222;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-color: #f9f4f4;
-    position: relative;
+    /* background-color: #f9f4f4;  */
+    background-color: #f6efe6;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -29,8 +31,8 @@ body{
     width: 115px;
 }
 nav{
-    background-color: whitesmoke;
-    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f6efe7; /* light beige */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
 }
 .nav-links{
     list-style: none;
@@ -53,14 +55,18 @@ nav a{
     color: black;
 }
 .language{
-    justify-self: flex-end;
-    display: flex;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    width: 200px;
-    z-index: 10;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  max-width: calc(100vw - 40px);
+  overflow: hidden;
+}
+.language select,
+#google_translate_element select{
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 nav a:hover{
     background-color:rgb(169, 201, 230);
