@@ -3,4 +3,10 @@ Code2040 Hackathon project purpose is to create accessibility to Black &amp; Bro
 
 ## Video Walkthrough
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/z3arl6S"  ><a href="//imgur.com/a/z3arl6S"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<div>
+    <a href="https://github.com/user-attachments/assets/21e36191-c89f-44aa-b882-d88425d5ae12">
+    </a>
+    <a href="https://github.com/user-attachments/assets/21e36191-c89f-44aa-b882-d88425d5ae12">
+      <img style="max-width:300px;" src="https://github.com/user-attachments/assets/9a6004ce-fe03-46f7-b3ed-2546215a4c63">
+    </a>
+  </div>
