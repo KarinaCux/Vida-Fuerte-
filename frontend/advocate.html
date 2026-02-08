@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advocate | Vida Fuerte!</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        </head>
+        <body>
+        <nav class="nav-bar">
+            <img src="logo.png" alt="Vida Fuerte Logo" width="130" height="100" class="logo-img" />
+            <ul class="nav-links">
+            <li><a href="frontPage.html">Home</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="advocate.html">Advocate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr />
+
+        <div class="page-card">
+  <h1 class="page-title">Advocate</h1>
+  <p class="page-subtitle">
+    Turn information into action. Find trusted health advocacy orgs and get a ready-to-use message you can send today.
+  </p>
+
+  <div class="advocate-toolbar">
+    <div class="field">
+      <label for="topic">Filter by topic</label>
+      <select id="topic">
+        <option value="all">All topics</option>
+        <option value="access">Access & Coverage</option>
+        <option value="immigrant">Immigrant Health</option>
+        <option value="mental">Mental Health</option>
+        <option value="maternal">Maternal & Reproductive</option>
+        <option value="disability">Disability & Accessibility</option>
+      </select>
+    </div>
+
+    <button id="copyBtn" type="button" class="primary-btn">Copy message</button>
+  </div>
+
+  <div class="advocate-grid">
+    <div class="panel">
+      <h2>Your message</h2>
+      <p class="small">Pick a topic, then copy/paste into email, DM, or a form.</p>
+
+      
+      <textarea id="scriptBox" class="script-box" ></textarea>
+      
+      <p class="small">Tip: Add your city + one barrier you faced (wait time, cost, language, transportation).</p>
+    </div>
+
+    <div class="panel">
+      <h2>Organizations</h2>
+      <p class="small">Curated links (replace/expand with your list).</p>
+      <div id="orgList" class="org-list" role="list"></div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="language">
+        <div id="google_translate_element"></div>
+        <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: "en" }, "google_translate_element");
+        }
+        </script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+    <script src="advocate.js"></script>
+</body>
+</html>
