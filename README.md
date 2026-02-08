@@ -2,7 +2,7 @@
 Code2040 Hackathon project purpose is to create accessibility to Black &amp; Brown communities on creating language inclusivity on medical translation, discharge summaries, diagnoses of polluted air around your household, etc. 
 
 ## Video Walkthrough
-
+- Please Click to see Video
 <div>
     <a href="https://github.com/user-attachments/assets/21e36191-c89f-44aa-b882-d88425d5ae12">
     </a>
